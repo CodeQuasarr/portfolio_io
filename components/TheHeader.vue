@@ -22,7 +22,8 @@ watch(() => useRoute().path, () => {
         <nav class="glass-card border-b border-gray-200/50 backdrop-blur-lg">
             <div class="container-custom py-4">
                 <div class="flex items-center justify-between">
-                    <NuxtLink to="/" class="text-2xl font-bold gradient-text hover:scale-105 transition-transform duration-300">
+                    <NuxtLink to="/" class="flex items-center text-2xl font-bold gradient-text hover:scale-105 transition-transform duration-300">
+                        <img class="w-10 h-10 rounded-full me-3" src="~/assets/images/logo/logo.webp" alt="logo codeQuasarr">
                         Portfolio
                     </NuxtLink>
 

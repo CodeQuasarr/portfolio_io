@@ -1,11 +1,14 @@
 <script lang="ts" setup>
 
+import TheFooter from "~/components/TheFooter.vue";
 </script>
 
 <template>
-    <TheHeader>
-        <slot />
-    </TheHeader>
+    <div>
+        <TheHeader />
+            <slot />
+        <TheFooter />
+    </div>
 </template>
 
 <style>
