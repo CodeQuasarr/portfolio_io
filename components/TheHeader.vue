@@ -5,9 +5,7 @@ const isMenuOpen = ref(false)
 const menuItems = [
     { name: 'Accueil', path: '/' },
     { name: 'À propos', path: '/about' },
-    { name: 'Services', path: '/services' },
     { name: 'Portfolio', path: '/portfolio' },
-    { name: 'Blog', path: '/blog' },
 ]
 
 // Fermer le menu mobile lors du changement de route
@@ -38,12 +36,12 @@ watch(() => useRoute().path, () => {
                         </NuxtLink>
                     </div>
 
-                    <button class="btn-indigo hidden md:flex items-center gap-2 group">
+                    <NuxtLink to="/contact" class="btn-primary hidden md:flex items-center gap-2 group">
                         <span>Contact</span>
                         <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                         </svg>
-                    </button>
+                    </NuxtLink>
 
                     <!-- Mobile menu button -->
                     <button class="md:hidden p-2 hover:bg-gray-100 rounded-lg transition-colors" @click="isMenuOpen = !isMenuOpen">
@@ -65,12 +63,12 @@ watch(() => useRoute().path, () => {
                                   class="block px-4 py-2 text-gray-600 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-all duration-300">
                             {{ item.name }}
                         </NuxtLink>
-                        <button class="btn-indigo w-full flex items-center justify-center gap-2">
+                        <NuxtLink to="/contact" class="w-full flex items-center justify-center gap-2">
                             <span>Contact</span>
                             <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                             </svg>
-                        </button>
+                        </NuxtLink>
                     </div>
                 </div>
             </div>
