@@ -137,7 +137,7 @@ const filteredProjects = computed(() => {
                                 </a>
                                 <a :href="project.caseStudyUrl"
                                    class="px-6 py-3 text-primary-600 border border-primary-600 rounded-lg hover:bg-primary-50 transition-colors">
-                                    Étude de cas
+                                    Github
                                 </a>
                             </div>
                         </div>
