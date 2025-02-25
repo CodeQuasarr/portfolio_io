@@ -10,7 +10,7 @@ export default defineNuxtConfig({
         { name: 'description', content: 'CodeQuasarr, developpeur Full Stack' }
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+        { rel: 'icon', type: 'image/x-icon', href: '/logo.webp'}
       ]
     }
   },
