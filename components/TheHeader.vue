@@ -5,7 +5,8 @@ const isMenuOpen = ref(false)
 const menuItems = [
     { name: 'Accueil', path: '/' },
     { name: 'À propos', path: '/about' },
-    { name: 'Portfolio', path: '/portfolio' },
+    { name: 'Services', path: '/services' },
+    { name: 'Projets', path: '/portfolio' },
 ]
 
 // Fermer le menu mobile lors du changement de route
@@ -22,7 +23,7 @@ watch(() => useRoute().path, () => {
                 <div class="flex items-center justify-between">
                     <NuxtLink to="/" class="flex items-center text-2xl font-bold gradient-text hover:scale-105 transition-transform duration-300">
                         <img class="w-10 h-10 rounded-full me-3" src="~/assets/images/logo/logo.webp" alt="logo codeQuasarr">
-                        Portfolio
+                        CodeQuasarr
                     </NuxtLink>
 
                     <div class="hidden md:flex items-center space-x-8">

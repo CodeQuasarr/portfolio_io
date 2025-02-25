@@ -25,8 +25,8 @@
                             <div>
                                 <h3 class="font-semibold mb-2">Email</h3>
                                 <a class="text-primary-600 hover:text-primary-700"
-                                   href="mailto:dsanyaronke@gmail.com">
-                                    dsanyaronke@gmail.com
+                                   href="mailto:samuel.anyaronke@gmail.com">
+                                  samuel.anyaronke@gmail.com
                                 </a>
                             </div>
 
@@ -65,12 +65,12 @@
                                         Je réponds généralement dans les 24-48 heures.
                                     </p>
                                 </details>
-<!--                                <details class="cursor-pointer">-->
-<!--                                    <summary class="font-medium">Comment se déroule la première consultation ?</summary>-->
-<!--                                    <p class="mt-2 text-gray-600">-->
-<!--                                        Un appel vidéo de 30 minutes pour discuter de votre projet et de vos besoins.-->
-<!--                                    </p>-->
-<!--                                </details>-->
+                                <details class="cursor-pointer">
+                                    <summary class="font-medium">Comment se déroule la première consultation ?</summary>
+                                    <p class="mt-2 text-gray-600">
+                                        Un appel téléphonique de 30 minutes pour discuter de votre projet et de vos besoins.
+                                    </p>
+                                </details>
                             </div>
                         </div>
                     </div>

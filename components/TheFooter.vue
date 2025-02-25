@@ -29,7 +29,7 @@ const menuItems = [
                 <div>
                     <h4 class="font-semibold mb-4">Contact</h4>
                     <ul class="space-y-2 text-gray-400">
-                        <li>dsanyaronke@mail.com</li>
+                        <li>samuel.anyaronke@mail.com</li>
                         <li>+33 7 54 81 74 36</li>
                     </ul>
                 </div>

@@ -9,7 +9,7 @@ const technicalSkills = {
     'Back-end': [
         'Nuxt.js',
         'Next.js',
-        'PHP / Laravel / Symfony',
+        'PHP / Laravel',
         'API REST',
     ],
     'Database': [
@@ -112,20 +112,6 @@ const technicalSkills = {
                                 <li>
                                     <p class="font-medium">Licence en Informatique</p>
                                     <p class="text-gray-600">Université Sciences et technologies de Bordeaux - 2019 - 2021</p>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="bg-white p-6 rounded-lg shadow-lg">
-                            <h3 class="text-xl font-semibold mb-2">Certifications</h3>
-                            <ul class="space-y-4">
-                                <li>
-                                    <p class="font-medium">AWS Certified Developer</p>
-                                    <p class="text-gray-600">Amazon Web Services - 2022</p>
-                                </li>
-                                <li>
-                                    <p class="font-medium">Professional Scrum Master</p>
-                                    <p class="text-gray-600">Scrum.org - 2021</p>
                                 </li>
                             </ul>
                         </div>
